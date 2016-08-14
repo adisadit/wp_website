@@ -1,0 +1,389 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-01-16T05:16:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/824318298",
+      "properties": {
+        "@id": "node/824318298",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Bank Danamon",
+        "operator": "Danamon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8297705,
+          -6.1829329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1273189595",
+      "properties": {
+        "@id": "node/1273189595",
+        "amenity": "bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8608599,
+          -6.1456212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1682845695",
+      "properties": {
+        "@id": "node/1682845695",
+        "amenity": "bank",
+        "name": "Bank Ekonomi RW 013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8082597,
+          -6.1579308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1683025293",
+      "properties": {
+        "@id": "node/1683025293",
+        "amenity": "bank",
+        "name": "Bank BRI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8074575,
+          -6.1482893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1683026050",
+      "properties": {
+        "@id": "node/1683026050",
+        "amenity": "bank",
+        "name": "Bank BTN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8074575,
+          -6.1481077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1683026312",
+      "properties": {
+        "@id": "node/1683026312",
+        "amenity": "bank",
+        "name": "Bank BNI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8074575,
+          -6.148204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1691583872",
+      "properties": {
+        "@id": "node/1691583872",
+        "amenity": "bank",
+        "name": "Bank Panin RW 011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8082581,
+          -6.1552839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1691584151",
+      "properties": {
+        "@id": "node/1691584151",
+        "amenity": "bank",
+        "name": "Bank BCA RW 09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8082688,
+          -6.1547692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1691584160",
+      "properties": {
+        "@id": "node/1691584160",
+        "amenity": "bank",
+        "name": "Bank Permata RW 09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8082501,
+          -6.1549559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1719756613",
+      "properties": {
+        "@id": "node/1719756613",
+        "amenity": "bank",
+        "atm": "yes",
+        "fee": "yes",
+        "name": "ATM BRA",
+        "operator": "Alpha Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8222763,
+          -6.2090507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1848532123",
+      "properties": {
+        "@id": "node/1848532123",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "BNI 46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8862585,
+          -6.1988547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1848546447",
+      "properties": {
+        "@id": "node/1848546447",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "BCA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8857235,
+          -6.2015525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1848546448",
+      "properties": {
+        "@id": "node/1848546448",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "BRI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8858343,
+          -6.1972295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1848546451",
+      "properties": {
+        "@id": "node/1848546451",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Mandiri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8862486,
+          -6.1990851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1970186925",
+      "properties": {
+        "@id": "node/1970186925",
+        "addr:postcode": "11460",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Bank BCA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7880145,
+          -6.1448544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1978097046",
+      "properties": {
+        "@id": "node/1978097046",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "BNI 46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7875002,
+          -6.1437211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2000946193",
+      "properties": {
+        "@id": "node/2000946193",
+        "amenity": "bank",
+        "name": "Bank Niaga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8188375,
+          -6.1615953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2021076386",
+      "properties": {
+        "@id": "node/2021076386",
+        "amenity": "bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8995113,
+          -6.2137524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2310676409",
+      "properties": {
+        "@id": "node/2310676409",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Bank Mandiri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7860419,
+          -6.1437896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2434993711",
+      "properties": {
+        "@id": "node/2434993711",
+        "amenity": "bank",
+        "name": "CIMB NIaga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8485075,
+          -6.1938175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2434994481",
+      "properties": {
+        "@id": "node/2434994481",
+        "amenity": "bank",
+        "name": "BNI 46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8481855,
+          -6.1935929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2565952977",
+      "properties": {
+        "@id": "node/2565952977",
+        "addr:street": "KH Abdul Syafi'ie",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "CIMB Niaga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8557711,
+          -6.225412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2696164862",
+      "properties": {
+        "@id": "node/2696164862",
+        "amenity": "bank",
+        "name": "ATM BNI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.847687,
+          -6.1970284
+        ]
+      }
+    }
+  ]
+}

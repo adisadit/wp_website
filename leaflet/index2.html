@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <title>Peta Leaflet !!!!!!!!</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/> <!-- ini BUKAN plugin !!! Ini adalah bagian library leaflet -->
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script> <!-- ini BUKAN plugin !!! Ini adalah bagian library leaflet -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="plugins/geosearch/src/js/l.control.geosearch.js"></script> <!-- ini plugin GEOSEARCH -->
+  <script src="plugins/geosearch/src/js/l.geosearch.provider.openstreetmap.js"></script> <!-- ini plugin GEOSEARCH -->
+  <link rel="stylesheet" href="plugins/geosearch/src/css/l.geosearch.css" /> <!-- ini plugin GEOSEARCH -->
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> <!-- mbile -->
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <script>
+	var map = L.map('map').setView([-6.158, 106.845], 12); // -6.158 adalah nilai LATITUDE dan 106.845 adalah nilai LONGITUDE dan 12 adalah nilai ZOOM LEVEL
+	
+	<!-- Fucti utuk meemuka lkasi saat ii -->
+	function onLocationFound(e) {
+		var radius = e.accuracy / 2;
+
+		L.marker(e.latlng).addTo(map)
+			.bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+		L.circle(e.latlng, radius).addTo(map);
+	}
+
+	map.on('locationfound', onLocationFound);
+	
+	function onLocationError(e) {
+		alert(e.message);
+	}
+
+	map.on('locationerror', onLocationError);
+
+	map.locate({setView: true, maxZoom: 16}); 
+	
+	
+	  <!-- Defiisika basemap -->
+	  L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', { // Menambahkan layer jenis TILE
+		maxZoom: 18,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+		}).addTo(map); // Mendeklarasikan penambahan objek ke dalam peta
+		
+	  $.getJSON("data/export2.geojson",function(data2){  // Menambahkan layer jenis VEKTOR
+		 var ratIcon = L.icon({
+		iconUrl: 'images/icon.png', // Mengubah Icon / Simbol 
+		iconSize: [30,30]
+	  });
+	  L.geoJson(data2,{
+		pointToLayer: function(feature,latlng){
+		  var marker = L.marker(latlng,{icon: ratIcon}); 
+		marker.bindPopup(feature.properties.name);  // Mengaktifkan Popup untuk layer terdefinisi
+		return marker;
+		}
+	  }).addTo(map); // Mendeklarasikan penambahan objek ke dalam peta
+	  });	
+
+	  new L.Control.GeoSearch({ // Pendefinisian fungsi GeoSearch
+		provider: new L.GeoSearch.Provider.OpenStreetMap() // Basisdata pencarian bersumber dari OSM
+	  }).addTo(map); // Mendeklarasikan penambahan objek ke dalam peta
+	  
+  </script>
+</body>
+
+</html>

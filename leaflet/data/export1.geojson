@@ -1,0 +1,406 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-01-16T05:08:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/315471556",
+      "properties": {
+        "@id": "node/315471556",
+        "amenity": "hospital",
+        "created_by": "Potlatch 0.10f",
+        "name": "RS Bunda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8364451,
+          -6.1961566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/315496554",
+      "properties": {
+        "@id": "node/315496554",
+        "amenity": "hospital",
+        "created_by": "Potlatch 0.10f",
+        "name": "RS Harapan Kita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7979863,
+          -6.1848073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/316452691",
+      "properties": {
+        "@id": "node/316452691",
+        "amenity": "hospital",
+        "created_by": "Merkaartor 0.12",
+        "name": "RS Mintohardjo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8119144,
+          -6.2109968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/318076629",
+      "properties": {
+        "@id": "node/318076629",
+        "amenity": "hospital",
+        "created_by": "Merkaartor 0.12",
+        "name": "RS Tarakan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8103587,
+          -6.1714783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/318702081",
+      "properties": {
+        "@id": "node/318702081",
+        "amenity": "hospital",
+        "created_by": "Potlatch 0.10f",
+        "name": "RSJ Grogol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7879282,
+          -6.1627128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/321545603",
+      "properties": {
+        "@id": "node/321545603",
+        "amenity": "hospital",
+        "created_by": "Potlatch 0.10f",
+        "name": "Royal Taruma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7853547,
+          -6.1662733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/328229518",
+      "properties": {
+        "@id": "node/328229518",
+        "amenity": "hospital",
+        "created_by": "Merkaartor 0.12",
+        "name": "RS Islam Jakarta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8712127,
+          -6.1712863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/401426991",
+      "properties": {
+        "@id": "node/401426991",
+        "amenity": "hospital",
+        "name": "RS Hermina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8611598,
+          -6.1455577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1343092357",
+      "properties": {
+        "@id": "node/1343092357",
+        "amenity": "hospital",
+        "designation": "Rumah Sakit PGI Cikini",
+        "emergency": "yes",
+        "name": "Rumah Sakit PGI Cikini"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8420221,
+          -6.19142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1675331031",
+      "properties": {
+        "@id": "node/1675331031",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Puskesmas Kel. kalianyar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7995081,
+          -6.156086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1675471403",
+      "properties": {
+        "@id": "node/1675471403",
+        "access:roof": "yes",
+        "addr:full": "Jalan Caringin",
+        "amenity": "hospital",
+        "building:levels": ">7",
+        "building:roof": "concrete",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "name": "RS Tarakan",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8105843,
+          -6.1722417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1675471407",
+      "properties": {
+        "@id": "node/1675471407",
+        "access:roof": "no",
+        "amenity": "hospital",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "name": "Rumah Sakit bersalin",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.810532,
+          -6.1779942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1682958719",
+      "properties": {
+        "@id": "node/1682958719",
+        "access:roof": "yes",
+        "addr:full": "Jl. Pemuda",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "2",
+        "building:roof": "concrete",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "capacity:persons": "FIX ME",
+        "operator:type": "private",
+        "rooms": "FIX ME"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8919957,
+          -6.1938649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1691655068",
+      "properties": {
+        "@id": "node/1691655068",
+        "access:roof": "no",
+        "addr:housenumber": "25",
+        "addr:postcode": "11470",
+        "addr:street": "Jalan Tanjung Duren Raya",
+        "amenity": "hospital",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "name": "Klinik Dr. Herdiman",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7835976,
+          -6.1834246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1691655069",
+      "properties": {
+        "@id": "node/1691655069",
+        "access:roof": "no",
+        "addr:housenumber": "2",
+        "addr:street": "Jalan Tanjung Duren Raya",
+        "amenity": "hospital",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "name": "Klinik Tomang",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7837495,
+          -6.1804375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1717114897",
+      "properties": {
+        "@id": "node/1717114897",
+        "amenity": "hospital",
+        "name": "RSCM Kencana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8457262,
+          -6.1986307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1717116043",
+      "properties": {
+        "@id": "node/1717116043",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "RS Cipto Mangunkusumo (National Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8471853,
+          -6.1965081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2565958371",
+      "properties": {
+        "@id": "node/2565958371",
+        "addr:city": "Jakarta Selatan",
+        "addr:housename": "Jl.Tebet Utara Dalam",
+        "addr:street": "Tebet Utara Dalam",
+        "amenity": "hospital",
+        "name": "Dokter Gigi Gunawan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8547392,
+          -6.2257823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3311995952",
+      "properties": {
+        "@id": "node/3311995952",
+        "amenity": "hospital",
+        "name": "RS. IBNU SINA",
+        "operator": "14075012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8220096,
+          -6.1743557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3312119465",
+      "properties": {
+        "@id": "node/3312119465",
+        "amenity": "hospital",
+        "name": "RS. IBNU SINA",
+        "operator": "14075012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8220212,
+          -6.1743897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3679654524",
+      "properties": {
+        "@id": "node/3679654524",
+        "addr:city": "jakarta selatan",
+        "addr:housenumber": "No. 77b",
+        "addr:street": "swadarma raya",
+        "amenity": "hospital",
+        "name": "klinik sehat",
+        "name_1": "Madu Sehat",
+        "operator": "iman",
+        "phone": "+6281572339113",
+        "website": "www.madusehatku.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7606924,
+          -6.2268616
+        ]
+      }
+    }
+  ]
+}
